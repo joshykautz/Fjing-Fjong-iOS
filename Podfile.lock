@@ -1,0 +1,44 @@
+PODS:
+  - Alamofire (5.0.4)
+  - HaishinKit (1.0.7):
+    - Logboard (~> 2.1.2)
+  - Logboard (2.1.2)
+  - lottie-ios (3.1.6)
+  - ScrollableGraphView (4.0.6)
+  - SearchTextField (1.2.4)
+  - SwiftyJSON (5.0.0)
+  - TransitionButton (0.5.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.0.4)
+  - HaishinKit (~> 1.0.7)
+  - lottie-ios (~> 3.1.6)
+  - ScrollableGraphView (~> 4.0.6)
+  - SearchTextField (~> 1.2.3)
+  - SwiftyJSON (~> 5.0)
+  - TransitionButton (~> 0.5.2)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - HaishinKit
+    - Logboard
+    - lottie-ios
+    - ScrollableGraphView
+    - SearchTextField
+    - SwiftyJSON
+    - TransitionButton
+
+SPEC CHECKSUMS:
+  Alamofire: 0fe5fd24b4298dc377a6550da7d5f1b30e286fcb
+  HaishinKit: ae275690ee78fb39185e2182dc9e5e315766593c
+  Logboard: e3342fa111e26268bb89577e6a40a0660a423ddd
+  lottie-ios: 85ce835dd8c53e02509f20729fc7d6a4e6645a0a
+  ScrollableGraphView: 4af35d4ea9ecdec665d34a74da51da161ddff8ac
+  SearchTextField: 40dc3cc57def5a211f263cac263622c163bbc25a
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  TransitionButton: fb271583d9c9e4bb116b97103047e5157653f233
+
+PODFILE CHECKSUM: a0c1a3e26fcb5a052ee60e1a97814d5f3c5dd4e0
+
+COCOAPODS: 1.9.1

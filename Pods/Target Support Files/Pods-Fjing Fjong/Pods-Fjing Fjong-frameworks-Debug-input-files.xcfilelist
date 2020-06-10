@@ -1,0 +1,9 @@
+${PODS_ROOT}/Target Support Files/Pods-Fjing Fjong/Pods-Fjing Fjong-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/HaishinKit/HaishinKit.framework
+${BUILT_PRODUCTS_DIR}/Logboard/Logboard.framework
+${BUILT_PRODUCTS_DIR}/ScrollableGraphView/ScrollableGraphView.framework
+${BUILT_PRODUCTS_DIR}/SearchTextField/SearchTextField.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework
+${BUILT_PRODUCTS_DIR}/TransitionButton/TransitionButton.framework
+${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework

@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81362A231D9F9EE40A6E18D0 /* Pods_Fjing_Fjong.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0BFD418B550DB9D83EBDF99 /* Pods_Fjing_Fjong.framework */; };
+		8E20A95C2446104200D00A96 /* PlayerPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E20A95B2446104200D00A96 /* PlayerPopUpViewController.swift */; };
+		8E62587C2436F465009DAFBB /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 8E62587B2436F465009DAFBB /* loading.json */; };
+		8E75F5512446D43200306039 /* Model.xcdatamodeld in Resources */ = {isa = PBXBuildFile; fileRef = 8E854B6A2446AB5600BDDC9C /* Model.xcdatamodeld */; };
+		8E93F8E224252CC100A91BA2 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E93F8E124252CC100A91BA2 /* TabBarController.swift */; };
+		8E93F8E42425347300A91BA2 /* RankController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E93F8E32425347300A91BA2 /* RankController.swift */; };
+		8E93F8E6242537CC00A91BA2 /* PlayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E93F8E5242537CC00A91BA2 /* PlayController.swift */; };
+		8EA7A4972416BC05001C04EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA7A4962416BC05001C04EB /* AppDelegate.swift */; };
+		8EA7A4992416BC05001C04EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA7A4982416BC05001C04EB /* SceneDelegate.swift */; };
+		8EA7A49E2416BC05001C04EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EA7A49C2416BC05001C04EB /* Main.storyboard */; };
+		8EA7A4A02416BC06001C04EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EA7A49F2416BC06001C04EB /* Assets.xcassets */; };
+		8EA7A4A32416BC06001C04EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EA7A4A12416BC06001C04EB /* LaunchScreen.storyboard */; };
+		8ECD359524377C6500095CC8 /* LoadingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECD359424377C6500095CC8 /* LoadingOverlay.swift */; };
+		8ED491312447519100A15D97 /* Player+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED4912F2447519100A15D97 /* Player+CoreDataClass.swift */; };
+		8ED491322447519100A15D97 /* Player+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED491302447519100A15D97 /* Player+CoreDataProperties.swift */; };
+		8ED491352447553900A15D97 /* Token+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED491342447553900A15D97 /* Token+CoreDataClass.swift */; };
+		8ED491362447553900A15D97 /* Token+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED491332447553900A15D97 /* Token+CoreDataProperties.swift */; };
+		8ED491392447882700A15D97 /* Metadata+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED491372447882700A15D97 /* Metadata+CoreDataClass.swift */; };
+		8ED4913A2447882700A15D97 /* Metadata+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED491382447882700A15D97 /* Metadata+CoreDataProperties.swift */; };
+		8EF1183E245878A10067D7A8 /* ScorePopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF1183D245878A10067D7A8 /* ScorePopUpViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E20A95B2446104200D00A96 /* PlayerPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerPopUpViewController.swift; sourceTree = "<group>"; };
+		8E62587B2436F465009DAFBB /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
+		8E854B6B2446AB5600BDDC9C /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		8E93F8E124252CC100A91BA2 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		8E93F8E32425347300A91BA2 /* RankController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankController.swift; sourceTree = "<group>"; };
+		8E93F8E5242537CC00A91BA2 /* PlayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayController.swift; sourceTree = "<group>"; };
+		8EA7A4932416BC05001C04EB /* Fjing Fjong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fjing Fjong.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EA7A4962416BC05001C04EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8EA7A4982416BC05001C04EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8EA7A49D2416BC05001C04EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8EA7A49F2416BC06001C04EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EA7A4A22416BC06001C04EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8EA7A4A42416BC06001C04EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EA7A4AB2416BC5E001C04EB /* Fjing Fjong Brainstorm */ = {isa = PBXFileReference; lastKnownFileType = text; name = "Fjing Fjong Brainstorm"; path = "../../Desktop/Fjing Fjong Files to put in project/Fjing Fjong Brainstorm"; sourceTree = "<group>"; };
+		8ECD359424377C6500095CC8 /* LoadingOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingOverlay.swift; sourceTree = "<group>"; };
+		8ED4912F2447519100A15D97 /* Player+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Player+CoreDataClass.swift"; path = "/Users/fjorgedevelopers/Projects/FjingFjong/Fjing Fjong/Player+CoreDataClass.swift"; sourceTree = "<absolute>"; };
+		8ED491302447519100A15D97 /* Player+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Player+CoreDataProperties.swift"; path = "/Users/fjorgedevelopers/Projects/FjingFjong/Fjing Fjong/Player+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
+		8ED491332447553900A15D97 /* Token+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Token+CoreDataProperties.swift"; path = "/Users/fjorgedevelopers/Projects/FjingFjong/Fjing Fjong/Token+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
+		8ED491342447553900A15D97 /* Token+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Token+CoreDataClass.swift"; path = "/Users/fjorgedevelopers/Projects/FjingFjong/Fjing Fjong/Token+CoreDataClass.swift"; sourceTree = "<absolute>"; };
+		8ED491372447882700A15D97 /* Metadata+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Metadata+CoreDataClass.swift"; path = "/Users/fjorgedevelopers/Projects/FjingFjong/Fjing Fjong/Metadata+CoreDataClass.swift"; sourceTree = "<absolute>"; };
+		8ED491382447882700A15D97 /* Metadata+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Metadata+CoreDataProperties.swift"; path = "/Users/fjorgedevelopers/Projects/FjingFjong/Fjing Fjong/Metadata+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
+		8EF1183D245878A10067D7A8 /* ScorePopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScorePopUpViewController.swift; sourceTree = "<group>"; };
+		9E0EED8EB0B961DF796770BD /* Pods-Fjing Fjong.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fjing Fjong.debug.xcconfig"; path = "Target Support Files/Pods-Fjing Fjong/Pods-Fjing Fjong.debug.xcconfig"; sourceTree = "<group>"; };
+		EDFFBF38EE730A7A5CEA3354 /* Pods-Fjing Fjong.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fjing Fjong.release.xcconfig"; path = "Target Support Files/Pods-Fjing Fjong/Pods-Fjing Fjong.release.xcconfig"; sourceTree = "<group>"; };
+		F0BFD418B550DB9D83EBDF99 /* Pods_Fjing_Fjong.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fjing_Fjong.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EA7A4902416BC05001C04EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81362A231D9F9EE40A6E18D0 /* Pods_Fjing_Fjong.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EA7A48A2416BC05001C04EB = {
+			isa = PBXGroup;
+			children = (
+				8EA7A4952416BC05001C04EB /* Fjing Fjong */,
+				8EA7A4942416BC05001C04EB /* Products */,
+				8EA7A4AA2416BC5E001C04EB /* Frameworks */,
+				E73BA68D1BCCA603418A1F62 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		8EA7A4942416BC05001C04EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EA7A4932416BC05001C04EB /* Fjing Fjong.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EA7A4952416BC05001C04EB /* Fjing Fjong */ = {
+			isa = PBXGroup;
+			children = (
+				8ED491372447882700A15D97 /* Metadata+CoreDataClass.swift */,
+				8ED491382447882700A15D97 /* Metadata+CoreDataProperties.swift */,
+				8ED491342447553900A15D97 /* Token+CoreDataClass.swift */,
+				8ED491332447553900A15D97 /* Token+CoreDataProperties.swift */,
+				8ED4912F2447519100A15D97 /* Player+CoreDataClass.swift */,
+				8ED491302447519100A15D97 /* Player+CoreDataProperties.swift */,
+				8ED13CFA2417EB0B00E4F2B1 /* Lottie */,
+				8EA7A4962416BC05001C04EB /* AppDelegate.swift */,
+				8EA7A4982416BC05001C04EB /* SceneDelegate.swift */,
+				8E93F8E124252CC100A91BA2 /* TabBarController.swift */,
+				8E93F8E32425347300A91BA2 /* RankController.swift */,
+				8E93F8E5242537CC00A91BA2 /* PlayController.swift */,
+				8ECD359424377C6500095CC8 /* LoadingOverlay.swift */,
+				8E20A95B2446104200D00A96 /* PlayerPopUpViewController.swift */,
+				8EF1183D245878A10067D7A8 /* ScorePopUpViewController.swift */,
+				8EA7A49C2416BC05001C04EB /* Main.storyboard */,
+				8EA7A49F2416BC06001C04EB /* Assets.xcassets */,
+				8EA7A4A12416BC06001C04EB /* LaunchScreen.storyboard */,
+				8EA7A4A42416BC06001C04EB /* Info.plist */,
+				8E854B6A2446AB5600BDDC9C /* Model.xcdatamodeld */,
+			);
+			path = "Fjing Fjong";
+			sourceTree = "<group>";
+		};
+		8EA7A4AA2416BC5E001C04EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8EA7A4AB2416BC5E001C04EB /* Fjing Fjong Brainstorm */,
+				F0BFD418B550DB9D83EBDF99 /* Pods_Fjing_Fjong.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8ED13CFA2417EB0B00E4F2B1 /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				8E62587B2436F465009DAFBB /* loading.json */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		E73BA68D1BCCA603418A1F62 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E0EED8EB0B961DF796770BD /* Pods-Fjing Fjong.debug.xcconfig */,
+				EDFFBF38EE730A7A5CEA3354 /* Pods-Fjing Fjong.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EA7A4922416BC05001C04EB /* Fjing Fjong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EA7A4A72416BC06001C04EB /* Build configuration list for PBXNativeTarget "Fjing Fjong" */;
+			buildPhases = (
+				650C8D2F58526398C3D3BE76 /* [CP] Check Pods Manifest.lock */,
+				8EA7A48F2416BC05001C04EB /* Sources */,
+				8EA7A4902416BC05001C04EB /* Frameworks */,
+				8EA7A4912416BC05001C04EB /* Resources */,
+				AB62B8F01666F24128A49F83 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fjing Fjong";
+			productName = "Fjing Fjong";
+			productReference = 8EA7A4932416BC05001C04EB /* Fjing Fjong.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EA7A48B2416BC05001C04EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Fjorge;
+				TargetAttributes = {
+					8EA7A4922416BC05001C04EB = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 8EA7A48E2416BC05001C04EB /* Build configuration list for PBXProject "Fjing Fjong" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EA7A48A2416BC05001C04EB;
+			productRefGroup = 8EA7A4942416BC05001C04EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EA7A4922416BC05001C04EB /* Fjing Fjong */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EA7A4912416BC05001C04EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E75F5512446D43200306039 /* Model.xcdatamodeld in Resources */,
+				8EA7A4A32416BC06001C04EB /* LaunchScreen.storyboard in Resources */,
+				8EA7A4A02416BC06001C04EB /* Assets.xcassets in Resources */,
+				8E62587C2436F465009DAFBB /* loading.json in Resources */,
+				8EA7A49E2416BC05001C04EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		650C8D2F58526398C3D3BE76 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fjing Fjong-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB62B8F01666F24128A49F83 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fjing Fjong/Pods-Fjing Fjong-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fjing Fjong/Pods-Fjing Fjong-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fjing Fjong/Pods-Fjing Fjong-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EA7A48F2416BC05001C04EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EA7A4972416BC05001C04EB /* AppDelegate.swift in Sources */,
+				8EA7A4992416BC05001C04EB /* SceneDelegate.swift in Sources */,
+				8E93F8E224252CC100A91BA2 /* TabBarController.swift in Sources */,
+				8ED491312447519100A15D97 /* Player+CoreDataClass.swift in Sources */,
+				8ED491322447519100A15D97 /* Player+CoreDataProperties.swift in Sources */,
+				8ED491352447553900A15D97 /* Token+CoreDataClass.swift in Sources */,
+				8ED491362447553900A15D97 /* Token+CoreDataProperties.swift in Sources */,
+				8ED491392447882700A15D97 /* Metadata+CoreDataClass.swift in Sources */,
+				8ED4913A2447882700A15D97 /* Metadata+CoreDataProperties.swift in Sources */,
+				8E93F8E42425347300A91BA2 /* RankController.swift in Sources */,
+				8E93F8E6242537CC00A91BA2 /* PlayController.swift in Sources */,
+				8ECD359524377C6500095CC8 /* LoadingOverlay.swift in Sources */,
+				8EF1183E245878A10067D7A8 /* ScorePopUpViewController.swift in Sources */,
+				8E20A95C2446104200D00A96 /* PlayerPopUpViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8EA7A49C2416BC05001C04EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EA7A49D2416BC05001C04EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8EA7A4A12416BC06001C04EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EA7A4A22416BC06001C04EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8EA7A4A52416BC06001C04EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8EA7A4A62416BC06001C04EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EA7A4A82416BC06001C04EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E0EED8EB0B961DF796770BD /* Pods-Fjing Fjong.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S9Z4DYM5QX;
+				INFOPLIST_FILE = "Fjing Fjong/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fjorgedigital.Fjing-Fjong";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8EA7A4A92416BC06001C04EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDFFBF38EE730A7A5CEA3354 /* Pods-Fjing Fjong.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S9Z4DYM5QX;
+				INFOPLIST_FILE = "Fjing Fjong/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fjorgedigital.Fjing-Fjong";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EA7A48E2416BC05001C04EB /* Build configuration list for PBXProject "Fjing Fjong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EA7A4A52416BC06001C04EB /* Debug */,
+				8EA7A4A62416BC06001C04EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EA7A4A72416BC06001C04EB /* Build configuration list for PBXNativeTarget "Fjing Fjong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EA7A4A82416BC06001C04EB /* Debug */,
+				8EA7A4A92416BC06001C04EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8E854B6A2446AB5600BDDC9C /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8E854B6B2446AB5600BDDC9C /* Model.xcdatamodel */,
+			);
+			currentVersion = 8E854B6B2446AB5600BDDC9C /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8EA7A48B2416BC05001C04EB /* Project object */;
+}
